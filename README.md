@@ -1,5 +1,5 @@
 Aby uruchomić projekt należy kolejno:
-- sklonuj the repo
+- sklonuj repozytorium
 - uruchom: npm install
 - uruchom: npm run build
 - uruchom: py -m venv venv
@@ -9,5 +9,5 @@ Aby uruchomić projekt należy kolejno:
 - w realest_estate/settings.py, klasa DATABASES, ustaw login USER dostepu do bazy
 - w realest_estate/settings.py, klasa DATABASES, ustaw hasło PASSWORD dostepu do bazy
 - w realest_estate/settings.py, klasa DATABASES, ustaw nazwe bazy NAME
-- uruchom py manage.py makegrations
+- wykonaj migracje bazy py manage.py makegrations
 - uruchom projekt py .\manage.py runserver

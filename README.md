@@ -1,0 +1,13 @@
+Aby uruchomić projekt należy kolejno:
+- sklonuj the repo
+- uruchom: npm install
+- uruchom: npm run build
+- uruchom: py -m venv venv
+- aktywuj venv
+- uruchom: pip install -r requirements.txt
+- w postgresql utworz baze danych o danej nazwie
+- w realest_estate/settings.py, klasa DATABASES, ustaw login USER dostepu do bazy
+- w realest_estate/settings.py, klasa DATABASES, ustaw hasło PASSWORD dostepu do bazy
+- w realest_estate/settings.py, klasa DATABASES, ustaw nazwe bazy NAME
+- uruchom py manage.py makegrations
+- uruchom projekt py .\manage.py runserver
